@@ -1,0 +1,200 @@
+.navbar-nav .nav-item .nav-link {
+   color: black;
+   text-transform: uppercase;
+   padding: 1rem;
+   font-weight: 400;
+   font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+   color: rgb(22, 212, 22);
+}
+
+.site-banner {
+   height: 700px;
+}
+
+.site-banner .background-banner {
+   background: url(../img/lake.jpg) no-repeat;
+   height: 70%;
+   width: 100%;
+   opacity: 0.9;
+   position: absolute;
+   background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
+   z-index: 1;
+}
+
+.site-banner .jumbotron .benner-text h1 {
+   text-align: center;
+   padding-top: 4rem;
+   padding-bottom: 2rem;
+   font-weight: 700;
+   font-size: 5.3rem;
+   text-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+   color: #ffff;
+   font-family: 'Open Sans', sans-serif;
+   letter-spacing: .03rem;
+   position: relative;
+   margin-top: 10px;
+}
+
+.site-banner .jumbotron .search-container {
+   padding: 3rem 4rem;
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.site-banner .jumbotron .search-container input {
+   width: 900px;
+   height: 60px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+}
+
+.site-banner .jumbotron .search-container input::placeholder {
+   font-family: 'Oswald', sans-serif;
+}
+
+.site-banner .jumbotron .search-container button {
+   height: 60px;
+   width: 110px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   letter-spacing: 2px;
+}
+
+.site-adventure .adventure-area {
+   padding: 4rem 0rem 4rem 0rem;
+}
+
+.site-adventure .adventure-area h3 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 2.5rem;
+   font-weight: 600;
+   color: rgba(0, 0, 0, 0.8);
+   padding-bottom: 1rem;
+}
+
+.site-adventure .adventure-area p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.site-adventure .adventure-area .card-deck .card {
+   width: 280px;
+   height: 350px;
+   border-radius: 8px;
+}
+
+.site-adventure .adventure-area .card-deck .card a {
+   width: 280px;
+   height: 350px;
+   border-radius: 8px;
+}
+
+.site-adventure .adventure-area .card-deck .card a:hover {
+   text-decoration: none;
+   filter: brightness(1.1) contrast(100%);
+   box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4);
+}
+
+.site-adventure .adventure-area .card-deck .card .image-camping {
+   background: url(../img/camping.jpg) no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
+   z-index: 1;
+   border-radius: 8px;
+   opacity: 0.9;
+}
+
+.site-adventure .adventure-area .card-deck .card .image-activities {
+   background: url(../img/hiking.jpg) no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
+   z-index: 1;
+   border-radius: 8px;
+   opacity: 0.9;
+}
+
+.site-adventure .adventure-area .card-deck .card .image-tent {
+   background: url(../img/tent.jpg) no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
+   z-index: 1;
+   border-radius: 8px;
+   opacity: 0.9;
+}
+
+.site-adventure .adventure-area .card-deck .card .image-local {
+   background: url(../img/house.jpeg) no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
+   z-index: 1;
+   border-radius: 8px;
+   opacity: 0.9;
+}
+
+.card .card-body h5.adventure-title {
+   margin-top: 270px;
+   color: whitesmoke;
+   text-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+   font-family: 'Open Sans', sans-serif;
+}
+
+.site-plan .plan-area {
+   padding: 4rem 0rem 4rem 0rem;
+}
+
+.site-plan .plan-area .row h3 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 2.5rem;
+   font-weight: 600;
+   color: rgba(0, 0, 0, 0.8);
+   padding-bottom: 1rem;
+}
+
+.site-plan .plan-area .row p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.site-plan .plan-area .row .card a.plan-trip:hover {
+   text-decoration: none;
+}
+
+.site-plan .plan-area .row .card .card-body h5,
+p {
+   color: rgba(0, 0, 0, 0.863);
+}
+
+.site-plan .plan-area .row .card .card-body h5 {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.site-plan .plan-area .row .card .card-body h5 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.site-plan .plan-area .row .card:hover {
+   box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4);
+   transform: scale(1.01);
+}
+
+.site-plan .plan-area .row .card:hover img {
+   transform: scale(1.02);
+   filter: contrast(90%);
+}
