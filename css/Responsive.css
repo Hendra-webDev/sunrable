@@ -4,10 +4,14 @@
       font-size: 2.3rem;
    }
 
-   
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+   .site-banner {
+      height: 400px;
+   }
+
    .site-banner .jumbotron .benner-text h1 {
       padding-top: 6rem;
       padding-bottom: 0rem;
@@ -47,4 +51,6 @@
    .site-plan .plan-area {
       padding: 2rem 0rem 3rem 0rem;
    }
+
+
 }
