@@ -3,6 +3,8 @@
       padding-top: 10rem;
       font-size: 2.3rem;
    }
+
+   
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -22,7 +24,7 @@
    }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (min-width: 376px) and (max-width: 426px) {
 
    .site-banner {
       height: 500px;
@@ -40,5 +42,9 @@
    .site-adventure .adventure-area .card-deck .card,
    .site-adventure .adventure-area .card-deck .card a {
       width: 380px;
+   }
+
+   .site-plan .plan-area {
+      padding: 2rem 0rem 3rem 0rem;
    }
 }
