@@ -84,6 +84,7 @@
    width: 280px;
    height: 350px;
    border-radius: 8px;
+   justify-items: center;
 }
 
 .site-adventure .adventure-area .card-deck .card a {
