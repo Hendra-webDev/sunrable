@@ -16,7 +16,6 @@
 
 .site-banner .background-banner {
    background: url(../img/lake.jpg) no-repeat;
-   height: 70%;
    width: 100%;
    opacity: 0.9;
    position: absolute;
@@ -199,7 +198,7 @@ p {
    filter: contrast(90%);
 }
 
-footer .footer-banner{
+footer{
    background-color: #26f5133a;
    width: 100%;
 }
