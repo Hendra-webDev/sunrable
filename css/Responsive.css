@@ -39,6 +39,7 @@
    .site-adventure .adventure-area .card-deck .card,
    .site-adventure .adventure-area .card-deck .card a {
       width: 340px;
+      justify-content: center;
    }
 }
 
@@ -60,6 +61,7 @@
    .site-adventure .adventure-area .card-deck .card,
    .site-adventure .adventure-area .card-deck .card a {
       width: 380px;
+      justify-content: center;
    }
 
    .site-plan .plan-area {
