@@ -17,6 +17,7 @@
 .site-banner .background-banner {
    background: url(../img/lake.jpg) no-repeat;
    width: 100%;
+   height: 600px;
    opacity: 0.9;
    position: absolute;
    background-size: cover;
@@ -199,7 +200,63 @@ p {
    filter: contrast(90%);
 }
 
-footer{
-   background-color: #26f5133a;
+footer {
+   background-color: #152935;
    width: 100%;
+}
+
+footer h5 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+}
+
+footer p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+footer .sosmed-area a {
+   border: 1px solid white;
+   margin: 0 4px 0 4px;
+   border-radius: 8px;
+   color: white;
+}
+
+footer .sosmed-area a:hover {
+   transform: scale(1.01);
+   background: white;
+   color: black;
+}
+
+footer .nav-item a {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+footer form .form-group input {
+   width: 100%;
+}
+
+footer form .form-group input.valid {
+   border-color: #36cc36;
+}
+
+footer form .form-group input.invalid {
+   border: 2px solid rgb(255, 0, 0);
+}
+
+footer form .form-group input+p {
+   color: rgb(255, 0, 0);
+   opacity: 0;
+   height: 0;
+}
+
+footer form .form-group input.invalid+p {
+   opacity: 1;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+footer .copyright-area {
+   background-color: #1b3241;
 }
